@@ -56,6 +56,7 @@ ul, ol {
     height: 250px;
     left: 0px;
     right: 0px;
+    z-index: -1;
 }
 
 #myImage{
@@ -86,7 +87,7 @@ section {
 }
 
 .wrap:hover {
-    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    background: linear-gradient(135deg, #ab0909 0%, #480505 100%);
     color: white;
 }
 
@@ -130,6 +131,129 @@ h2 {
 }
 
 /**********************
-/***** Contact *******
+/***** zzz *******
 /*********************/
 
+right: 50px; bottom: 500px; height: 50px; border: white; border-width: 10px"
+
+#afspraak:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+
+
+.arial {
+    font-family: Arial ;
+}
+
+.afspraak-box:hover {
+    position: absolute;
+    right: 50px;
+    bottom: 400px;
+    height: 75px;
+    border: 10px solid white;
+    background-color: #191c1f;
+    ;
+}
+
+/************************
+/**** NIEUWE TARIEVEN ***
+/************************/
+
+.our-plans{
+  width:100%;
+}
+.our-plans .price-plan{
+  width:100%;
+  padding: 20px;
+  background: #000000;
+  border: 3px solid #ffffff;
+  margin-bottom: 20px;
+}
+.our-plans .price-plan:last-child{
+  margin-bottom: 0;
+}
+.our-plans .price-plan .plan-details,
+.our-plans .price-plan .plan-features,
+.our-plans .price-plan .accept-plan{
+  float:left;
+  padding: 0 10px;
+}
+.our-plans .price-plan .plan-details{
+  width: 25%;
+}
+.our-plans .price-plan .plan-features{
+  width:55%;
+}
+.our-plans .price-plan .accept-plan{
+  width:20%;
+}
+
+.our-plans .price-plan .plan-details h2{
+  display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 20px 0;
+    color: #252a37;
+    margin-bottom: 0;
+}
+.our-plans .price-plan .plan-details h3{
+  font-size: 34px;
+  padding: 0 0;
+  position: relative;
+  color: #252a37;
+  margin: 0 0 25px;
+}
+.our-plans .price-plan .plan-details h3 sub{
+  font-size: 20px;
+  left: -0.6em;
+  position: relative;
+}
+.our-plans .price-plan .plan-details h3 sup{
+  top: -0.9em;
+  font-size: 50%;
+  left: -0.01em;
+  font-weight: 700;
+}
+/* plan features */
+.our-plans .price-plan .plan-features ul{
+  list-style: none;
+}
+.our-plans .price-plan .plan-features ul li{
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 4px;
+}
+.our-plans .price-plan .plan-features ul li:before{
+  content: "\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #ffffff;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+/* plan details ends here */
+.our-plans .price-plan .accept-plan{
+  text-align: center;
+}
+.our-plans .price-plan .accept-plan a{
+  text-align: center;
+  padding: 5px 20px;
+  background-color: #cb0101;
+  color: #fff;
+  border-radius: 27px;
+  margin-top: 20%;
+  display: inline-block;
+}
+.our-plans .price-plan .accept-plan a:hover{
+  background: #ea1313;
+}
