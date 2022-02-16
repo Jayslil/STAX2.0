@@ -257,3 +257,19 @@ right: 50px; bottom: 500px; height: 50px; border: white; border-width: 10px"
 .our-plans .price-plan .accept-plan a:hover{
   background: #ea1313;
 }
+
+.override-anch {
+    text-decoration: none;
+    color: white;
+}
+
+.kenteken {
+    text-transform: uppercase;
+
+}
+
+
+#kentekenplaat {
+    height: 40px;
+    width: 250px;
+}
