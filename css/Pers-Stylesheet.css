@@ -19,6 +19,24 @@
     visibility: visible;
 }
 
+.navbar-logo {
+    color: #ff0000;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: xx-large;
+    margin-right: 30px;
+}
+
+.nav-override {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.nav-override:hover {
+    text-decoration: none;
+    color: #ff0000;
+}
+
 ul, ol {
     list-style: none;
     padding: 0;
@@ -137,16 +155,9 @@ h2 {
 
 right: 50px; bottom: 500px; height: 50px; border: white; border-width: 10px"
 
-.afspraak:hover {
-    color: white;
-    text-decoration: none;
-    background-color: #000000;
-}
 
-#afspraaklink:hover {
-  color: #cb0101;
-  background-color: #000000;
-}
+
+
 
 #nav_bar ul li a.active-page
 {
@@ -167,15 +178,7 @@ input[type="number"] {
     font-family: Arial ;
 }
 
-.afspraak-box:hover {
-    position: absolute;
-    right: 50px;
-    bottom: 400px;
-    height: 75px;
-    border: 10px solid white;
-    background-color: #191c1f;
-    ;
-}
+
 
 /************************
 /**** NIEUWE TARIEVEN ***
@@ -287,9 +290,9 @@ input[type="number"] {
   color: white;
 }
 
-.kenteken {
+#kenteken {
     text-transform: uppercase;
-    position: absolute;
+
 
 }
 
@@ -339,6 +342,16 @@ input[type="number"] {
   color: rgb(238, 238, 238);
   font-size: xx-large;
   font-weight: bolder;
+}
+
+.active-item {
+      font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-style: italic ;
 }
 
 .service-uitleg {
@@ -395,5 +408,30 @@ ul, .service-list {
   border-bottom-right-radius: 23px;
   position: absolute;
   right: 100px;
-  top: 500px;
+  bottom: 150px;
+  position: fixed;
+
+input {
+    text-transform: uppercase;
 }
+
+input {
+    text-transform: uppercase;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: none;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: none;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: none;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: none;
+}
+::placeholder { /* Recent browsers */
+    text-transform: none;
+}
+
+
