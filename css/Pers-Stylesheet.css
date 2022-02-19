@@ -6,6 +6,7 @@
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
     color: #ffffff;
+    
 }
 .nav-list li {
     padding-top: 5px;
@@ -136,12 +137,30 @@ h2 {
 
 right: 50px; bottom: 500px; height: 50px; border: white; border-width: 10px"
 
-#afspraak:hover {
+.afspraak:hover {
     color: white;
     text-decoration: none;
     background-color: #000000;
 }
 
+#afspraaklink:hover {
+  color: #cb0101;
+  background-color: #000000;
+}
+
+#nav_bar ul li a.active-page
+{
+  background-color:blue;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
 
 
 .arial {
@@ -263,8 +282,14 @@ right: 50px; bottom: 500px; height: 50px; border: white; border-width: 10px"
     color: white;
 }
 
+.override-anch:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .kenteken {
     text-transform: uppercase;
+    position: absolute;
 
 }
 
@@ -272,4 +297,79 @@ right: 50px; bottom: 500px; height: 50px; border: white; border-width: 10px"
 #kentekenplaat {
     height: 40px;
     width: 250px;
+    position: relative;
+}
+
+.service-list {
+  width: 300px;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: 40px;
+  
+}
+
+.item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgb(240, 22, 22);
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+
+}
+
+#itemtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.item:hover {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgb(238, 238, 238);
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.service-uitleg {
+  /* position: absolute; */
+  display: inline-block;
+ 
+ 
+  margin-left: 200px;
+  margin-top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: #fff;
+  
+  width: 600px;
+  height: 500px;
+  overflow: scroll;
+  scroll-margin-top: 20px;
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+  scrollbar-base-color: crimson;
+  scrollbar-color: crimson;
+  scrollbar-arrow-color: crimson;
+}
+
+}
+
+.service-page {
+  padding-bottom: 500px;
+ 
+}
+
+ul, .service-list {
+  padding: 50px, , 50px,  ;
 }
