@@ -1,5 +1,9 @@
 /* NAVBAR FOOTER CSS*/
 
+html {
+    font-size: 16px;
+}
+
 .context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);
 }
@@ -68,13 +72,17 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
+
+#navbarNav {
+
+
+}
 /* // NAVBAR FOOTER CSS*/
 
 #banner{
-    max-width: 100%;
-    height: 250px;
-    left: 0px;
-    right: 0px;
+    width: 100%;
+    height: 350px;
+
     z-index: -1;
 }
 
@@ -103,6 +111,7 @@ section {
     border-radius: 0.5rem;
     box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
     margin-bottom: 2rem;
+    ;
 }
 
 .wrap:hover {
@@ -146,8 +155,9 @@ h2 {
 }
 .display-6 {
     font-family: 'Source Sans Pro',sans-serif;
-    font-size: 1re}
+    font-size: 1re
 }
+
 
 /**********************
 /***** zzz *******
@@ -376,7 +386,7 @@ input[type="number"] {
   scrollbar-arrow-color: crimson;
 }
 
-}
+
 
 .service-page {
   padding-bottom: 500px;
@@ -400,16 +410,29 @@ ul, .service-list {
 }
 
 .whatsapp {
-  background-color: #28a745;
-  width: 300px;
-  border-top-left-radius: 23px;
-  border-bottom-left-radius: 23px;
-  border-top-right-radius: 23px;
-  border-bottom-right-radius: 23px;
-  position: absolute;
-  right: 100px;
-  bottom: 150px;
-  position: fixed;
+    background-color: #28a745;
+    width: 300px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    position: absolute;
+    right: 2%;
+    top: 60.5%;
+    ;
+}
+
+.afspraak-box {
+    width: 300px;
+    right: 2%;
+    top: 50.5%;
+    position: absolute;
+}
+
+#afspraak {
+    text-decoration: none;
+    color: inherit;
+}
 
 input {
     text-transform: uppercase;
@@ -434,4 +457,55 @@ input {
     text-transform: none;
 }
 
+.wrapper {
+    display: inline-block;
+}
 
+
+
+@media only screen and (max-width: 480px) {
+    .afspraak-box {
+        width: 60%;
+        display: none;
+    }
+    #afspraak {
+        font-size: 1.1rem;
+
+    }
+
+    .whatsapp {
+        width: 60%;
+    }
+    #whatsapplink {
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+
+    .wrap {
+        width: 10rem;
+        height: 15.5rem;
+        display: inline-block;
+        padding: 0rem, 0rem;
+        margin: 1.0rem;
+        display: inline-block;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+
+}
+
+    .ico-wrap {
+        display: none;
+    }
+    footer {
+
+    }
+
+    .navlinks {
+        display: none;
+    }
+}
