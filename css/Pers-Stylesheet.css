@@ -13,6 +13,9 @@ html {
     background: #2d3246
     
 }
+
+
+
 .nav-list li {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -552,13 +555,76 @@ input {
         height: 22.5rem;
         font-weight: 500;
         vertical-align: center;
-        /*position: relative;*/
     }
 
-    /*.scenter {*/
-    /*    display: inline-block;*/
-    /*    vertical-align: middle;*/
-    /*    float: none;*/
-        /*max-width: 49%;*/
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .afspraak-box {
+        width: 60%;
+        display: none;
+        position: relative;
+        margin: 0.25rem;
+    }
+    #afspraak {
+        font-size: 1.1rem;
+
+    }
+
+    .whatsapp {
+        width: 60%;
+        position: relative;
+        margin: 0.25rem;
+    }
+    #whatsapplink {
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+
+    .wrap {
+        width: 95%;
+        height: 15.5rem;
+        display: inline-block;
+        padding: 0rem;
+        margin: 1.0rem;
+        display: inline-block;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+    
+    }
+
+    .service-list {
+        display: inherit;
+        width: 45%;
+        min-width: 15.8rem;
+        left: 2%;
+        /*position: relative;*/
+        vertical-align: top;
+        margin-left: 0.5rem;
+    }
+
+    .service-uitleg {
+        display: inline-block;
+        width: 45%;
+        margin-top: -26rem;
+        margin-bottom: 5rem;
+        right: 0.5rem;
+
+
+        height: 23rem;
+        font-weight: 500;
+        vertical-align: top;
+
+    }
+
+    .navlinks {
+        display: none;
     }
 }
