@@ -10,6 +10,7 @@ html {
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
     color: #ffffff;
+    background: #2d3246
     
 }
 .nav-list li {
@@ -155,7 +156,7 @@ h2 {
 }
 .display-6 {
     font-family: 'Source Sans Pro',sans-serif;
-    font-size: 1re
+    font-size: 1rem
 }
 
 
@@ -163,7 +164,7 @@ h2 {
 /***** zzz *******
 /*********************/
 
-right: 50px; bottom: 500px; height: 50px; border: white; border-width: 10px"
+
 
 
 
@@ -314,15 +315,15 @@ input[type="number"] {
 }
 
 .service-list {
-  width: 300px;
-  height: 500px;
+  width: 20rem;
+  height: auto;
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 50px;
+  padding-left: 2rem;
   border-radius: 15px;
   display: inline-block;
   margin: 10px;
   vertical-align: 40px;
-  
+  margin-left: 3rem;
 }
 
 .item {
@@ -365,36 +366,37 @@ input[type="number"] {
 }
 
 .service-uitleg {
+
   /* position: absolute; */
-  display: inline-block;
+    display: inline-block;
+    position: absolute;
  
- 
-  margin-left: 200px;
-  margin-top: 100px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
-  color: #fff;
-  
-  width: 600px;
-  height: 500px;
-  overflow: scroll;
-  scroll-margin-top: 20px;
-  scroll-behavior: smooth;
-  scroll-snap-type: proximity;
-  scrollbar-base-color: crimson;
-  scrollbar-color: crimson;
-  scrollbar-arrow-color: crimson;
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #fff;
+    right: 17.5%;
+    width: 50%;
+    height: 31.25rem;
+    overflow: scroll;
+    margin-left: 1rem;
+    /*scroll-margin-top: 20px;*/
+    /*scroll-behavior: smooth;*/
+    /*scrollbar-base-color: crimson;*/
+    /*scrollbar-color: crimson;*/
+    /*scrollbar-arrow-color: crimson;*/
 }
 
 
 
 .service-page {
-  padding-bottom: 500px;
+  padding-bottom: 10rem;
  
 }
 
 ul, .service-list {
-  padding: 50px, , 50px,  ;
+  /*padding: 50px, , 50px ;*/
 }
 
 .whatsapplogo {
@@ -462,6 +464,13 @@ input {
 }
 
 
+#overons {
+    /*width: 80%;*/
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 
 @media only screen and (max-width: 480px) {
     .afspraak-box {
@@ -489,7 +498,7 @@ input {
         width: 10rem;
         height: 15.5rem;
         display: inline-block;
-        padding: 0rem, 0rem;
+        padding: 0rem;
         margin: 1.0rem;
         display: inline-block;
 
@@ -506,10 +515,50 @@ input {
         display: none;
     }
     footer {
+        position: relative;
+        bottom: 0;
+        margin-top: 5rem;
+        display: inline-block;
+
+    }
+
+    .service-page {
+        display: inherit;
+        margin-bottom: 5rem;
+        position: relative;
+        height: 60rem;
 
     }
 
     .navlinks {
         display: none;
+    }
+
+    .service-list {
+        display: inherit;
+        width: 80%;
+        left: 10%;
+        /*position: relative;*/
+
+    }
+
+    .service-uitleg {
+        display: inline-block;
+        width: 70%;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+
+
+        height: 22.5rem;
+        font-weight: 500;
+        vertical-align: center;
+        /*position: relative;*/
+    }
+
+    /*.scenter {*/
+    /*    display: inline-block;*/
+    /*    vertical-align: middle;*/
+    /*    float: none;*/
+        /*max-width: 49%;*/
     }
 }
