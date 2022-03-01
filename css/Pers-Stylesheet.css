@@ -561,12 +561,13 @@ input {
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 991px) {
     .afspraak-box {
         width: 60%;
         display: none;
         position: relative;
-        margin: 0.25rem;
+        margin: 1.25rem, 2rem;
+        max-width: 16rem;
     }
     #afspraak {
         font-size: 1.1rem;
@@ -577,6 +578,7 @@ input {
         width: 60%;
         position: relative;
         margin: 0.25rem;
+        max-width: 16rem;
     }
     #whatsapplink {
         font-size: 0.75rem;
@@ -626,5 +628,52 @@ input {
 
     .navlinks {
         display: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1281px) {
+    .afspraak-box {
+        width: 60%;
+        display: none;
+        position: relative;
+        margin: 1.25rem, 2rem;
+        max-width: 16rem;
+        right: -70%;
+    }
+    #afspraak {
+        font-size: 1.1rem;
+
+    }
+
+    .whatsapp {
+        width: 60%;
+        position: relative;
+        margin-top: 0.75rem;
+        max-width: 16rem;
+        right: -70%;
+    }
+    #whatsapplink {
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+
+    .service-uitleg {
+        right: 2%;
+    }
+}
+
+@media only screen and (min-width: 1282px) {
+    .afspraak-box {
+        position: relative;
+        margin: 1.25rem, 2rem;
+        right: -70%;
+    }
+
+    .whatsapp {
+        position: relative;
+        margin-top: 1.25rem;
+        right: -70%;
     }
 }
