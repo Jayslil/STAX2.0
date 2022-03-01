@@ -566,8 +566,9 @@ input {
         width: 60%;
         display: none;
         position: relative;
-        margin: 1.25rem, 2rem;
+        /*margin: 1.25rem 2rem;*/
         max-width: 16rem;
+
     }
     #afspraak {
         font-size: 1.1rem;
@@ -579,6 +580,7 @@ input {
         position: relative;
         margin: 0.25rem;
         max-width: 16rem;
+
     }
     #whatsapplink {
         font-size: 0.75rem;
@@ -638,7 +640,7 @@ input {
         width: 60%;
         display: none;
         position: relative;
-        margin: 1.25rem, 2rem;
+        /*margin: 1.25rem 2rem;*/
         max-width: 16rem;
         right: -70%;
     }
@@ -667,7 +669,7 @@ input {
 @media only screen and (min-width: 1282px) {
     .afspraak-box {
         position: relative;
-        margin: 1.25rem, 2rem;
+
         right: -70%;
     }
 
